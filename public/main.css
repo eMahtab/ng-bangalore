@@ -1,0 +1,70 @@
+   a:hover{
+    text-decoration: none;
+}
+   
+         body {           
+          background: #43CDA2; /* For browsers that do not support gradients */      
+          /*background: linear-gradient(to right,#7E0F4B, #1A5865); */
+         /* background: linear-gradient(to right,#FF5F6D, #FFC371); */
+             background: linear-gradient(to right,#C04848,#480048); 
+            /*  background: linear-gradient(to right,#c2e59c,#64b3f4);*/
+            /* background: linear-gradient(to right,#00C9FF,#92FE9D);*/
+          /*  background: linear-gradient(to right,#000000, #434343); */
+        }
+      
+ 
+          .typed-cursor {
+  font-weight: 50;
+  font-size: 38px;
+  color: white;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #9d6ab4;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
